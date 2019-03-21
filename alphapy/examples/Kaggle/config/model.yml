@@ -19,7 +19,7 @@ data:
     target_value      : 1
 
 model:
-    algorithms        : ['RF', 'XGB']
+    algorithms        : ['RF', 'XGB','KERASC','AB','GB','XT']
     balance_classes   : True
     calibration       :
         option        : False
